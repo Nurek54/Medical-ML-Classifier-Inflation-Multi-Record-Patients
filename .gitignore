@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Data (raw and generated data stay local)
+data/**/*
+!data/**/
+!data/**/.gitkeep
+
+# Large result artifacts
+results/logs/*
+!results/logs/.gitkeep
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+
+# LaTeX build files
+reports/latex/*.aux
+reports/latex/*.log
+reports/latex/*.out
+reports/latex/*.toc
+reports/latex/*.synctex.gz
+reports/latex/*.fdb_latexmk
+reports/latex/*.fls
